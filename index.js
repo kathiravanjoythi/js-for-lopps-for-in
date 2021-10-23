@@ -40,4 +40,23 @@ for(let nm of lname) {
   }
 }
 
+// break and continue
+for(let i = 0; i <= 10; i++) {
+  console.log(i)
+  if(i==4) { 
+    console.log('i 4', i)
+    continue;
+  }
+}
 
+// continue
+let text = '';
+
+for (let i = 0; i < 10; i++) {
+  if (i === 3) {
+    continue;
+  }
+  text = text + i;
+}
+
+console.log(text);
